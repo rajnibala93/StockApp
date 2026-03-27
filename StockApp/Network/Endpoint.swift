@@ -8,10 +8,9 @@
 import Foundation
 
 struct Endpoint {
-    private let apiKey = "3bb44fee1dmshe55c9b543853befp1711afjsn0e91e5c5790d"
+    private let apiKey = "YOUR_API_KEY"
     //Note: yh-finance.p.rapidapi.com - the given host is broken, so i have integrated by using the lastest one
     private let host = "apidojo-yahoo-finance-v1.p.rapidapi.com"
-   // private let host = "yh-finance.p.rapidapi.com"
     
     let path: String
     
